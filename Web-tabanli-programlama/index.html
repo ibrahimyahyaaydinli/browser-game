@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ghosting</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="kid_2.png"/>
+    <style >
+ .button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+    border-radius: 25px;
+    margin-left: 47%;
+    margin-top: 15px;
+    font-family: cursive;
+    font-size: 17px;
+    box-shadow : 0px 0px 15px 15px gray;
+ }
+ .button-div{
+
+
+ }
+ .canvass{
+   margin-top: 25px;
+   box-shadow: 0px 0px 30px 20px purple;
+   border-radius: 25px;
+ }
+ body{
+   background-color: yellow;
+ }
+    </style>
+  </head>
+  <body>
+    <canvas class="canvass" style="border: 3px solid yellow;margin-left:10%" id="canvas-0" width="1080" height="512">
+
+    </canvas>
+
+   <canvas class="canvass" style="border: 3px solid green;margin-left:10%" id="canvas" width="1080" height="512">
+
+   </canvas>
+
+   <canvas class="canvass" style="border: 3px solid red;margin-left:10%;display:none;" id="canvas-2" width="1080" height="512">
+
+   </canvas>
+
+   <img style="display:none;" src="kid_2.png" alt="">
+   <img style="display:none;" src="floor.png" alt="">
+   <img style="display:none;" src="ghost_1.png" alt="">
+   <img style="display:none;" src="bomb.png" alt="">
+   <img style="display:none;" src="background_1.png" alt="">
+   <img style="display:none;" src="fire-destroy.png" alt="">
+   <img style="display:none;" src="white-fire.png" alt="">
+   <img style="display:none;" src="tower.png" alt="">
+   <img style="display:none;" src="logo.png" alt="">
+   <source src="ghost-fire.mp3" type="audio/mpeg">
+  <source src="gameover.wav" type="audio/mpeg">
+    <source src="game-music.wav" type="audio/mpeg">
+      <source src="die.wav" type="audio/mpeg">
+<div class="button-div">
+
+
+   <button class="button" id="retry"  type="button" onclick="retry()" name="button"> retry </button>
+  <button class="button"  id="play"  type="button" onclick="playy()" name="button"> play </button>
+<button class="button"  id="pause"  type="button" onclick="pausee()" name="button"> pause </button>
+</div>
+   <script src="game.js"></script>
+   <p style="font-family:cursive;text-align:center;"> İbrahim Yahya Aydınlı </p>
+  </body>
+</html>
