@@ -8,4 +8,4 @@ Mükemmel, demek sende o olmak istiyorsun.Pekala bize bir mouse ve bir ArrowDown
 Mouse ile sağa ve sola gideceksin diğer tuş ile düşmanlarının korkulu rüyası olan DambaDumba bombası atacaksın.Sakın kaçırma ve dikkatli ol, hangilerinin ne kadar hızlı olduğunu bilmiyorsun.
 
 ## Oyundan Kare
-![image info](./pictures/image.p
+![image info](ss_game.PNG)
