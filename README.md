@@ -1,7 +1,7 @@
 # Ghosting Game
 
 ## Ghosting'in hikayesi
-Geriye kalan sadece o kalmıştı ve ailesinden ona miras bırakılan bu çok değerli kuleyi koruması gerekiyorDU.O artık kendisi hariç tek bir insanın kalmadığını ve dünyanın kimlerin eline geçtiğini iyi biliyordu, bu yüzden tüm enerjisini yükselmek ve yukarıdan kulesini istila etmeye çalışan düşmanları yok etmek için harcayacaktı. 
+Geriye kalan sadece o kalmıştı ve ailesinden ona miras bırakılan bu çok değerli kuleyi koruması gerekiyordu.O artık kendisi hariç tek bir insanın kalmadığını ve dünyanın kimlerin eline geçtiğini iyi biliyordu, bu yüzden tüm enerjisini yükselmek ve yukarıdan kulesini istila etmeye çalışan düşmanları yok etmek için harcayacaktı. 
 
 ## Oynanış
 Mükemmel, demek sende o olmak istiyorsun.Pekala bize bir mouse ve bir ArrowDown tuşu lazım onlar hazırsa tamamdır.
