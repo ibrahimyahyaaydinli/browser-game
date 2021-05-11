@@ -87,6 +87,8 @@ document.addEventListener('keydown', function(event) {
 }, true);
 ///////////////////////////////////
 draw_0();
+
+/////////////////// draw_0 giriş canvasını yani canvas_0ı çalıştıran fonksiyon////////////////
 function draw_0()
 {
 
@@ -113,7 +115,10 @@ context_0.fillText("Be careful, don't let the ghost go to the tower.", 320,475);
 context_0.drawImage(logo,300,-100);
 
 }
+///////////////////////////////////////////////////
 
+
+/////////////////// draw oyun canvasını çalıştıran fonksiyon////////////////
 function draw(){
 
     canvas_0.style.display="none";
@@ -194,10 +199,12 @@ return;
 
 }
 
+  /////// oyun ekranında score yazan yeri sağlayan kod//////////////////
 context.fillStyle = "gray";
 context.font = "25px cursive";
 
 context.fillText(score, 1000,50);
+  ///////////////////////////////////////////////////////
 
 if (!pause) {
   requestAnimationFrame(draw);
@@ -214,9 +221,9 @@ else {
 }
 
 }
+/////////////////////////////////////////////////////////////////////////////////
 
-
-
+///////////////////////// draw_2 gameover sahnesi için///////////////////////////
 function draw_2()
 {
   gameOver.play();
@@ -240,13 +247,11 @@ function draw_2()
 
 
 }
+////////////////////////////////////////////////////////
 
+//// retry fonksiyonunda canvası block ve canvas_2 yi none edip drawı yani block ettiğimiz canvasın bulunduğu fonksiyonu çağırıyoruz///////////////////7 
 function retry()
 {
-
-
-
-
 
  gx = 1100
 
@@ -254,6 +259,8 @@ function retry()
   canvas_2.style.display="none";
   draw();
 }
+////////////////////////////////////////////////////////////
+
 function pausee()
 {
  pause = true;
